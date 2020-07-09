@@ -33,6 +33,15 @@ object HelloWorld {
       
       println(firstname);
       
+      //Une fonction étant un objet, on peut en créer une nouvelle
+      //Rappel : def s'il s'agit de déclarer une fonction
+      
+      def function(argument: String):Unit = {
+        println("Hello " + argument + "!");
+      }
+      
+      function(firstname);
+      
       return;
     }
 }
