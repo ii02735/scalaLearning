@@ -14,7 +14,19 @@ object HelloWorld {
       //Mais peut être aussi précisé, comme en JAVA (plus conseillé : cohérence + signification)
       
       //Le point virgule n'est pas obligatoire comme en JS
+      
+      //Création d'une variable (var)
       var firstname:String = "Hello World"
+      
+      //Création d'une CONSTANTE (val)
+      val AGE:Integer = 22;
+      
+      //On peut changer une variable
+      
+      firstname = "ii02735";
+      
+      //Changer une constante aboutira à une erreur de compilation
+      //AGE = 21; --> KO
       
       //Puisque la méthode ne retourne rien, "return" n'est pas obligé
       //Mais peut être précisé
