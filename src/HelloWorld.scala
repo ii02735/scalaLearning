@@ -42,6 +42,10 @@ object HelloWorld {
       
       function(firstname);
       
+      //Il est possible d'écrire des opérations sur plusieurs lignes
+      var sum:Integer = 20 +
+      10;
+      
       return;
     }
 }
