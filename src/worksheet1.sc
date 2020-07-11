@@ -2,7 +2,8 @@ object worksheet1 {
 	/**
 	  * Les worksheets sont pratiques car ils permettent d'afficher le résultat / retour de chaque instruction
     * Les résultats sont affichés en COMMENTAIRE, PAR INSTRUCTION !
-    * Cela est utile pour déboguer
+    * Cela est utile pour déboguer et ensuite ajouter le code dans le programme Scala
+    * qu'on cherche à développer.
     **/
     
     
