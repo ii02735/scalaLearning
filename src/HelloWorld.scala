@@ -6,6 +6,10 @@ object HelloWorld {
      * Les fonctions définies par "def" sont des objets
      * Et s'il retournent rien, mettre en type de retour "Unit"
      * En argument : un tableau de String ayant pour nom "args"
+     * 
+     * Attention, malgré l'inférence de typage (cf typeInference.sc)
+     * il est obligatoire de préciser Unit comme type de retour pour
+     * la méthode main !
      */
     def main(args: Array[String]):Unit = {
        
