@@ -50,4 +50,16 @@ object loopsExamples {
 	
 	val wordArray = word.toCharArray();       //> wordArray  : Array[Char] = Array(h, e, l, l, o)
 	
+	//Utilisation d'un pointeur pour pouvoir énumérer des arguments (varargs)
+	
+	def sum(args:Int*):Int = {
+		var result:Int = 0;
+		for(arg <- args)
+			result += arg;
+		return result; //return est optionnel
+	}                                         //> sum: (args: Int*)Int
+	
+	println(sum(1,2,3,4,5));                  //> 15
+	
+	
 }
